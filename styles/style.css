@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: crimson;
+}
+
+.div-one {
+    background-image: url('../image/headphone.jpg');
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.div-one-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.div-two {
+    background-color: crimson;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.div-two-text {
+    text-align: center;
+    position: absolute;
+    color: white;
+}
+
+.pads {
+  background: lightblue;
+  width: 100%;
+  display: flex;
+}
+.pads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+.pad1 {
+  background: #60d394;
+}
+.pad2 {
+  background: #d36060;
+}
+.pad3 {
+  background: #c060d3;
+}
+.pad4 {
+  background: #d3d160;
+}
+.pad5 {
+  background: #606bd3;
+}
+.pad6 {
+  background: #60c2d3;
+}
+
+.visual > div {
+  position: absolute;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: scale(1);
+  z-index: -1;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 00%;
+    left: 80%;
+  }
+}
+
+.div-three {
+    background-color: lightblue;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.div-three-text {
+    text-align: center;
+    position: absolute;
+    color: white;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px;
+  padding: 10px;
+}
+
+audio {
+  width: 400px;
+}
+
+video {
+  border: 0;
+}
+
+/*4*/
+.div-four {
+  background-color: green;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.div-four-text {
+  text-align: center;
+  position: absolute;
+  color: white;
+}
+
+img {
+  height: 260px;
+  width: 200px;
+}
+
+/*5*/
+.div-five {
+  background-color: gray;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.div-five-text {
+  text-align: center;
+  position: absolute;
+  color: white;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
